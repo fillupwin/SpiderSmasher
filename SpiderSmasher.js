@@ -10,9 +10,9 @@
 		var snTier = "";
 	
 		if(spider.sclass == 1){snClass = "Runner";}
-		if(spider.sClass == 2){snClass = "Titan";}
-		if(spider.sClass == 3){snClass = "Warrior";}
-		if(spider.sClass == 4){snClass = "Tank";}
+		if(spider.sclass == 2){snClass = "Titan";}
+		if(spider.sclass == 3){snClass = "Warrior";}
+		if(spider.sclass == 4){snClass = "Tank";}
 		
 		if(spider.stier == 1){snTier = "Peon";}
 		if(spider.stier == 2){snTier = "Squire";}
