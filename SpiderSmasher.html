@@ -1,67 +1,69 @@
 <!DOCTYPE html>
-<html>
-<body>
-
-
-
-<script src="SpiderSmasher.js"></script>
-
-<h1>Spider Smasher</h1>
-
-<nav>
-	<button type="button" onclick="genSpid()">Generate Spider</button> <!-- generate spider -->
-	<button type="button" onclick="revealButtons()">Level Up Player</button>
-</nav>
-
-<section>
-	<h1><p id = "sname">Spider</p></h1>
+<html lang="en">
+	<head>
+		<title>Spider Smasher</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="SpiderSmasher.css">
+		<meta name="description" content="Website for smashing spiders.">
+		<script src="SpiderSmasher.js"></script>
+	</head>
 	
-	<p>
-	Spider Speed:
-	</p>
-	<p id = "sspeed">
-	</p>
-	<p>
-	Spider Health:
-	</p>
-	<p id = "shealth">
-	</p>
-	<p>
-	Spider Attack:
-	</p>
-	<p id = "sattack">
-	</p>
-	<p>
-	Spider Defense:
-	</p>
-	<p id = "sdefense">
-	</p>
-</section>
-<article>
-	<h1><p id = "pname">lvl 0 Player</p></h1>
-	
-	<p>
-	Player Speed:<button type="button" onclick="lvlUp(1)" id = "pbspeed" disabled = true>Choose Speed</button>
-	</p>
-	<p id = "pspeed">0
-	</p>
-	<p>
-	Player Health:<button type="button" onclick="lvlUp(2)" id = "pbhealth" disabled = true>Choose Health</button>
-	</p>
-	<p id = "phealth">0
-	</p>
-	<p>
-	Player Attack:<button type="button" onclick="lvlUp(3)" id = "pbattack" disabled = true>Choose Attack</button>
-	</p>
-	<p id = "pattack">0
-	</p>
-	<p>
-	Player Defense:<button type="button" onclick="lvlUp(4)" id = "pbdefense" disabled = true>Choose Defense</button>
-	</p>
-	<p id = "pdefense">0
-	</p>
-</article>
-<aside></aside>
+	<body>
+		<h1>Spider Smasher</h1>
 
-</body>
+		<div class="buttons">
+			<button type="button" onclick="genSpid()">Generate Spider</button> <!-- generate spider -->
+			<button type="button" onclick="revealButtons()">Level Up Player</button>
+		</div>
+
+		<div class="stats">
+			<h1><p id = "sname">Spider</p></h1>
+	
+			<p>
+			Spider Speed:
+			</p>
+			<p id = "sspeed">
+			</p>
+			<p>
+			Spider Health:
+			</p>
+			<p id = "shealth">
+			</p>
+			<p>
+			Spider Attack:
+			</p>
+			<p id = "sattack">
+			</p>
+			<p>
+			Spider Defense:
+			</p>
+			<p id = "sdefense">
+			</p>
+		</div>
+		<div class="stats">
+			<h1><p id = "pname">lvl 0 Player</p></h1>
+	
+			<p>
+			Player Speed:<button type="button" onclick="lvlUp(1)" id = "pbspeed" disabled = true>Choose Speed</button>
+			</p>
+			<p id = "pspeed">0
+			</p>
+			<p>
+			Player Health:<button type="button" onclick="lvlUp(2)" id = "pbhealth" disabled = true>Choose Health</button>
+			</p>
+			<p id = "phealth">0
+			</p>
+			<p>
+			Player Attack:<button type="button" onclick="lvlUp(3)" id = "pbattack" disabled = true>Choose Attack</button>
+			</p>
+			<p id = "pattack">0
+			</p>
+			<p>
+			Player Defense:<button type="button" onclick="lvlUp(4)" id = "pbdefense" disabled = true>Choose Defense</button>
+			</p>
+			<p id = "pdefense">0
+			</p>
+		</div>
+	</body>
 </html>
